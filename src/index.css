@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Tangerine:wght@400;700&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -18,5 +20,5 @@ body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Montserrat", sans-serif !important;
 }
-
