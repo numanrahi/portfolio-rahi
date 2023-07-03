@@ -1,0 +1,29 @@
+
+.parent{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.parent .box{
+    width: 20vw;
+    height: 20vh;
+    background: #000;
+    background-position: top;
+    transition: ease-in-out 8s;
+}
+.parent .box .box1{
+    /* background: url('https://i.postimg.cc/gjNqDKxB/toyverse.png'); */
+    background-size: cover;
+}
+.parent .box .box2{
+    /* background: url(); */
+    background-size: cover;
+}
+.parent .box .box3{
+    /* background: url(); */
+    background-size: cover;
+}
+
+.parent .box:hover{
+    background-position: bottom;
+}
