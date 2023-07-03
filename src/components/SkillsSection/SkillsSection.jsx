@@ -6,8 +6,9 @@ import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
 import {BsBootstrapFill, BsBugFill} from "react-icons/bs"
 import { FaCss3Alt } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";
+import { TbBrandReactNative } from "react-icons/tb";
 import { SiDaisyui, SiExpress, SiFirebase, SiVercel } from "react-icons/si";
-import { BiLogoJavascript, BiLogoMongodb, BiLogoNetlify, BiLogoNodejs, BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoFigma, BiLogoJavascript, BiLogoMongodb, BiLogoNetlify, BiLogoNodejs, BiLogoTailwindCss } from "react-icons/bi";
 AOS.init();
 
 const SkillsSection = () => {
@@ -33,7 +34,19 @@ const SkillsSection = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="row text-center py-2">
+        <div className="col-2"><BiLogoFigma/> Figma</div>
+        <div className="col-10">
+          <ProgressBar completed={90} width="75%" />
+        </div>
+      </div>
+      <div data-aos="fade-up" className="row text-center py-2">
         <div className="col-2"><BsBootstrapFill/> Bootstrap</div>
+        <div className="col-10">
+          <ProgressBar completed={90} width="75%" />
+        </div>
+      </div>
+      <div data-aos="fade-up" className="row text-center py-2">
+        <div className="col-2"><TbBrandReactNative/>React Bootstrap</div>
         <div className="col-10">
           <ProgressBar completed={90} width="75%" />
         </div>

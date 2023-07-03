@@ -10,6 +10,7 @@ import SkillsSection from "./components/SkillsSection/SkillsSection";
 import NavbarSkills from "./components/NavbarRoutes/NavbarSkills/NavbarSkills";
 import NavbarProjects from "./components/NavbarRoutes/NavbarProjects/NavbarProjects";
 import NavbarContact from "./components/NavbarRoutes/NavbarContact/NavbarContact";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element:<NavbarContact></NavbarContact>
+  },
+  {
+    path: '*',
+    element: <PageNotFound></PageNotFound>
   }
 ]);
 

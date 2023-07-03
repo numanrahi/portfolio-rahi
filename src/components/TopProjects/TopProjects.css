@@ -1,29 +1,46 @@
-
-.parent{
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-}
-.parent .box{
-    width: 20vw;
-    height: 20vh;
-    background: #000;
+.project-img-1 {
+    width: 35vw;
+    height: 35vh;
+    background-image: url("https://i.ibb.co/Ypc9BP0/photo-craft-rahi-web-app.png");
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: ease-in-out 8s;
-}
-.parent .box .box1{
-    /* background: url('https://i.postimg.cc/gjNqDKxB/toyverse.png'); */
-    background-size: cover;
-}
-.parent .box .box2{
-    /* background: url(); */
-    background-size: cover;
-}
-.parent .box .box3{
-    /* background: url(); */
-    background-size: cover;
+    border: 3px solid #00000071;
+    border-radius: 16px !important;
 }
 
-.parent .box:hover{
+.project-img-1:hover {
+    background-position: bottom;
+}
+
+.project-img-2 {
+    width: 35vw;
+    height: 35vh;
+    background-image: url("https://i.ibb.co/cJ1DqKD/assignment-10-422d7-web-app.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 8s;
+    border: 3px solid #00000071;
+    border-radius: 16px !important;
+}
+.project-img-2:hover {
+    background-position: bottom;
+}
+
+.project-img-3 {
+    width: 35vw;
+    height: 35vh;
+    background-image: url("https://i.ibb.co/jg8nn2Y/toyverse-rahi-web-app-main.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 8s;
+    border: 3px solid #00000071;
+    border-radius: 16px !important;
+}
+
+.project-img-3:hover {
     background-position: bottom;
 }
