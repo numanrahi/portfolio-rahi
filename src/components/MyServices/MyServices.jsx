@@ -8,7 +8,7 @@ const MyServices = () => {
       <div className="row justify-content-center ">
         <div
           data-aos="fade-up"
-          className="col-6 col-sm-11 col-md-6 mx-auto text-center px-4 py-3"
+          className="col-11 col-md-6 mx-auto text-center px-4 py-3"
         >
           <div className="border border-primary px-3 py-5 rounded-4 border-hover">
             <div className="mx-auto">
@@ -27,7 +27,7 @@ const MyServices = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="col-6 col-sm-11 col-md-6 mx-auto text-center px-4 py-3"
+          className="col-11 col-md-6 mx-auto text-center px-4 py-3"
         >
           <div className="border border-primary px-3 py-5 rounded-4 border-hover">
             <div className="mx-auto">
@@ -47,7 +47,7 @@ const MyServices = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="col-6 col-sm-11 col-md-6 mx-auto text-center px-4 py-3"
+          className="col-11 col-md-6 mx-auto text-center px-4 py-3"
         >
           <div className="border border-primary px-3 py-5 rounded-4 border-hover">
             <div className="mx-auto">
@@ -67,7 +67,7 @@ const MyServices = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="col-6 col-sm-11 col-md-6 mx-auto text-center px-4 py-3"
+          className="col-11 col-md-6 mx-auto text-center px-4 py-3"
         >
           <div className="border border-primary px-3 py-5 rounded-4 border-hover">
             <div className="mx-auto">

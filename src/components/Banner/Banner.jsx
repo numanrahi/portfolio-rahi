@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
   return (
     <div style={{ maxWidth: "1200px" }} className="row mx-auto">
-      <div className="col-6 my-auto">
+      <div className="col-md-6 col-11 mx-uto my-auto">
         <span className="d-flex fs-5 fw-bold">Frontend developer / ReactJS Developer</span>
         <p style={{ fontSize: "2em" }}>Hello There! I'm</p>
         <TypeAnimation
@@ -26,7 +26,7 @@ const Banner = () => {
           repeat={Infinity}
         />
       </div>
-      <div className="col-6">
+      <div className="col-md-6 col-11 mx-uto">
         <img
           className="img-fluid rounded-5 border border-primary"
           src="https://i.postimg.cc/qRPvYtwQ/My-project-1.jpg"
