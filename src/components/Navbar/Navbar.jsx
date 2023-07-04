@@ -16,7 +16,6 @@ const Navbar = () => {
     // Dispatch a click event to download the file
     link.click();
   };
-
   return (
     <div className="d-flex py-2 p-2 justify-content-between">
       <div className="fs-3 ms-3 animate-charcter">RAHI</div>
@@ -24,11 +23,19 @@ const Navbar = () => {
         <Link to="/" className="text-decoration-none text-dark mx-3 fs-5">
           Home
         </Link>
-        <Link to="/skills" className="text-decoration-none text-dark mx-3 fs-5">Skills</Link>
-        <Link to="/project" className="text-decoration-none text-dark mx-3 fs-5">
+        <Link to="/skills" className="text-decoration-none text-dark mx-3 fs-5">
+          Skills
+        </Link>
+        <Link
+          to="/project"
+          className="text-decoration-none text-dark mx-3 fs-5"
+        >
           Projects
         </Link>
-        <Link to="/contact" className="text-decoration-none text-dark mx-3 fs-5">
+        <Link
+          to="/contact"
+          className="text-decoration-none text-dark mx-3 fs-5"
+        >
           Contact
         </Link>
       </div>
