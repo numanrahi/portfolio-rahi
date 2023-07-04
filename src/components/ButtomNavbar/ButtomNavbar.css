@@ -1,0 +1,25 @@
+.b-nav {
+  position: fixed !important;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.732);
+  width: 100vw;
+  height: 60px;
+  border-radius: 8px 8px 0 0;
+  border-top: 3px solid #212529;
+}
+
+.btn-b-nav {
+  background-color: #212529;
+  padding: 8px 30px;
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 520px) {
+  .btn-b-nav {
+    padding: 8px 20px;
+  }
+
+  .padding {
+    padding: 8px 0 !important ;
+  }
+}

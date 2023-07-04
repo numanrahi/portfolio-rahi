@@ -17,7 +17,7 @@ const Navbar = () => {
     link.click();
   };
   return (
-    <div className="d-flex py-2 p-2 justify-content-between">
+    <div className="d-md-flex d-none py-2 p-2 justify-content-between">
       <div className="fs-3 ms-3 animate-charcter">RAHI</div>
       <div>
         <Link to="/" className="text-decoration-none text-dark mx-3 fs-5">
@@ -27,7 +27,7 @@ const Navbar = () => {
           Skills
         </Link>
         <Link
-          to="/project"
+          to="/my-project"
           className="text-decoration-none text-dark mx-3 fs-5"
         >
           Projects

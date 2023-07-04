@@ -1,10 +1,12 @@
 import React from "react";
 import "./TopProjects.css";
 import { Link } from "react-router-dom";
+import ButtomNavbar from "../ButtomNavbar/ButtomNavbar";
 
 const TopProjects = () => {
   return (
     <div className="mt-5">
+      <ButtomNavbar></ButtomNavbar>
       <div className="fs-2 text-center mb-5">Top Projects</div>
       <div style={{ maxWidth: "1200px" }} className="mx-auto">
         <div className="row justify-content-around align-items-center">
