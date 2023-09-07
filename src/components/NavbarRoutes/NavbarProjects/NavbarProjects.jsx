@@ -6,7 +6,7 @@ import ButtomNavbar from '../../ButtomNavbar/ButtomNavbar';
 
 const NavbarProjects = () => {
     return (
-        <div>
+        <div style={{ backgroundColor: "#30414B" }}>
             <Navbar></Navbar>
             <ButtomNavbar></ButtomNavbar>
             <TopProjects></TopProjects>

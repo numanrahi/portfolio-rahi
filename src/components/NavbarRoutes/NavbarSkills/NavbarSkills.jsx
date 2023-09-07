@@ -6,7 +6,7 @@ import ButtomNavbar from '../../ButtomNavbar/ButtomNavbar';
 
 const NavbarSkills = () => {
     return (
-        <div>
+        <div style={{ backgroundColor: "#30414B" }}>
             <Navbar></Navbar>
             <ButtomNavbar></ButtomNavbar>
             <SkillsSection></SkillsSection>
