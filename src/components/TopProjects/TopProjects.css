@@ -1,46 +1,55 @@
 .project-img-1 {
-    width: 40vw;
-    height: 40vh;
-    background-image: url("https://i.ibb.co/Ypc9BP0/photo-craft-rahi-web-app.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: ease-in-out 8s;
-    border: 3px solid #00000071;
-    border-radius: 16px !important;
+  width: 40vw;
+  height: 40vh;
+  background-image: url("https://i.ibb.co/Ypc9BP0/photo-craft-rahi-web-app.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 8s;
+  border: 3px solid #00000071;
+  border-radius: 16px !important;
 }
 
 .project-img-1:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
 
 .project-img-2 {
-    width: 40vw;
-    height: 40vh;
-    background-image: url("https://i.ibb.co/cJ1DqKD/assignment-10-422d7-web-app.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: ease-in-out 8s;
-    border: 3px solid #00000071;
-    border-radius: 16px !important;
+  width: 40vw;
+  height: 40vh;
+  background-image: url("https://i.ibb.co/cJ1DqKD/assignment-10-422d7-web-app.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 8s;
+  border: 3px solid #00000071;
+  border-radius: 16px !important;
 }
 .project-img-2:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
 
 .project-img-3 {
-    width: 40vw;
-    height: 40vh;
-    background-image: url("https://i.ibb.co/jg8nn2Y/toyverse-rahi-web-app-main.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: ease-in-out 8s;
-    border: 3px solid #00000071;
-    border-radius: 16px !important;
+  width: 40vw;
+  height: 40vh;
+  background-image: url("https://i.ibb.co/jg8nn2Y/toyverse-rahi-web-app-main.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 8s;
+  border: 3px solid #00000071;
+  border-radius: 16px !important;
 }
 
 .project-img-3:hover {
-    background-position: bottom;
+  background-position: bottom;
+}
+.text-cus {
+  color: #a9dfbf;
+  text-decoration: none;
+  transition: text-decoration 0.3s, background-color 0.3s;
+}
+.text-cus:hover {
+  text-decoration: underline;
+  background-color: #30414b;
 }

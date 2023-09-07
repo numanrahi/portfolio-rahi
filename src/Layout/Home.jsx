@@ -9,7 +9,7 @@ import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: "rgba(248, 234, 240, 0.87)" }}>
+    <div style={{ backgroundColor: "#30414B" }}>
       <Navbar></Navbar>
       <Banner></Banner>
       <SkillsSection></SkillsSection>

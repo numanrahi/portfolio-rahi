@@ -13,8 +13,8 @@ AOS.init();
 
 const SkillsSection = () => {
   return (
-    <div className="container pt-5">
-      <div className="fs-2 text-center">Skills</div>
+    <div className="container pt-5 text-white">
+      <div className="fs-2 text-center fw-bold">Skills</div>
       <div data-aos="fade-up" className="row text-center pt-5">
         <div className="col-sm-2 col-4">
           <AiFillHtml5 /> HTML

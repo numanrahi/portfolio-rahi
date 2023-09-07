@@ -3,8 +3,8 @@ import "./MyServices.css";
 
 const MyServices = () => {
   return (
-    <div style={{ maxWidth: "1200px" }} className="mt-5 container ">
-      <div className="fs-2 text-center">My Services</div>
+    <div style={{ maxWidth: "1200px"}} className="mt-5 container text-white">
+      <div className="fs-2 text-center fw-bold">My Services</div>
       <div className="row justify-content-center ">
         <div
           data-aos="fade-up"

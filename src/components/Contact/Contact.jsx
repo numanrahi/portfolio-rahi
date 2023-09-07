@@ -37,8 +37,8 @@ const Contact = () => {
       );
   };
   return (
-    <div style={{ maxWidth: "1200px" }} className="mt-5 mx-auto">
-      <div className="fs-2 text-center ">Contact Me</div>
+    <div style={{ maxWidth: "1200px" }} className="mt-5 mx-auto text-white">
+      <div className="fs-2 text-center fw-bold">Contact Me</div>
       <div className="row pt-5 ">
         <section className="col-12 col-sm-6">
           <div className="fs-5 text-center mb-5">Get In Touch</div>
@@ -46,7 +46,7 @@ const Contact = () => {
             <div>
               Email:{" "}
               <a
-                className="text-decoration-none"
+                className="text-decoration-none text-cus"
                 href="mailto:arahi2994@gmail.com"
               >
                 arahi2994@gmail.com
@@ -54,7 +54,7 @@ const Contact = () => {
             </div>
             <div>
               Phone:{" "}
-              <a className="text-decoration-none" href="tel:+880 1712-707479">
+              <a className="text-decoration-none text-cus" href="tel:+880 1712-707479">
                 {" "}
                 +880 1712-707479
               </a>
@@ -70,7 +70,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin />
+                <FaLinkedin className="text-white" />
               </a>
               <a
                 className="fs-2 p-3"
@@ -78,7 +78,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook />
+                <FaFacebook className="text-white" />
               </a>
               <a
                 className="fs-2 p-3"
@@ -86,7 +86,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub />
+                <FaGithub  className="text-white"/>
               </a>
             </div>
           </div>

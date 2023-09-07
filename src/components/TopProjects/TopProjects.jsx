@@ -5,9 +5,9 @@ import ButtomNavbar from "../ButtomNavbar/ButtomNavbar";
 
 const TopProjects = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 text-white">
       <ButtomNavbar></ButtomNavbar>
-      <div className="fs-2 text-center mb-5">Top Projects</div>
+      <div className="fs-2 text-center mb-5 fw-bold">Top Projects</div>
       <div style={{ maxWidth: "1200px" }} className="mx-auto">
         <div className="row justify-content-around align-items-center">
           <div className="col-md-6 col-11 mx-auto project-img-1 my-4"></div>
@@ -15,20 +15,20 @@ const TopProjects = () => {
             <div className="display-6 pt-3 text-center">PhotoCraft</div>
             <div className="d-flex justify-content-between mt-2">
               <Link
-                className="text-decoration-none"
+                className=" text-cus"
                 to="https://photo-craft-rahi.web.app/"
               >
                 Live Site
               </Link>
               <Link
-                className="text-decoration-none"
+                className=" text-cus"
                 to="https://github.com/numanrahi/photo-craft-client"
               >
                 Client Repo
               </Link>
               <Link
                 to="https://github.com/numanrahi/photo-craft-server"
-                className="text-decoration-none"
+                className=" text-cus"
               >
                 Server Repo
               </Link>
@@ -41,20 +41,20 @@ const TopProjects = () => {
             <div className="display-6 pt-3 text-center">Bengali Buzz</div>
             <div className="d-flex justify-content-between mt-2">
               <Link
-                className="text-decoration-none"
+                className=" text-cus"
                 to="https://assignment-10-422d7.web.app/"
               >
                 Live Site
               </Link>
               <Link
-                className="text-decoration-none"
+                className=" text-cus"
                 to="https://github.com/numanrahi/bengali-buzz-client"
               >
                 Client Repo
               </Link>
               <Link
                 to="https://github.com/numanrahi/bengali-buzz-server"
-                className="text-decoration-none"
+                className=" text-cus"
               >
                 Server Repo
               </Link>
@@ -67,20 +67,20 @@ const TopProjects = () => {
             <div className="display-6 pt-3 text-center">ToyVerse</div>
             <div className="d-flex justify-content-between mt-2">
               <Link
-                className="text-decoration-none"
+                className=" text-cus"
                 to="https://toyverse-rahi.web.app/main"
               >
                 Live Site
               </Link>
               <Link
-                className="text-decoration-none"
+                className=" text-cus"
                 to="https://github.com/numanrahi/toy-verse-client"
               >
                 Client Repo
               </Link>
               <Link
                 to="https://github.com/numanrahi/toy-verse-server"
-                className="text-decoration-none"
+                className=" text-cus"
               >
                 Server Repo
               </Link>

@@ -1,3 +1,8 @@
 .contact-input {
   padding: 10px;
 }
+.text-cus {
+  color: #a9dfbf;
+  text-decoration: none;
+  transition: text-decoration 0.3s, background-color 0.3s;
+}

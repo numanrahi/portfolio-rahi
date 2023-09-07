@@ -4,40 +4,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    // <div className="mt-5 pt-5">
-    //   <hr />
-    //   <div className="text-center fs-3">Abdullah Al Numan Rahi</div>
-    //   <div className="fs-5 text-center">Frontend Developer</div>
-    //   <div className="text-center">
-    //     <Link
-    //       className="fs-2 px-2"
-    //       to="https://www.linkedin.com/in/abdullah-al-numan-rahi-610611249/"
-    //     >
-    //       <FaLinkedin />
-    //     </Link>
-    //     <Link className="fs-2 px-2" to="https://web.facebook.com/RahiX2020/">
-    //       <FaFacebook />
-    //     </Link>
-    //     <Link className="fs-2 px-2" to="https://github.com/numanrahi">
-    //       <FaGithub />
-    //     </Link>
-    //   </div>
-    //   <hr />
-    //   <div className="d-flex justify-content-around">
-    //     <div>
-    //       <p>&copy; 2023 Abdullah Al Numan Rahi. All rights reserved.</p>
-    //     </div>
-    //     <div>
-    //       <Link to="/" className="text-decoration-none px-1 text-dark">Home</Link>
-    //       <Link to="/project" className="text-decoration-none px-1 text-dark">Projects</Link>
-    //       <Link to="/skills" className="text-decoration-none px-1 text-dark">Skills</Link>
-    //       <Link to="/contact" className="text-decoration-none px-1 text-dark">Contact</Link>
-    //     </div>
-    //   </div>
-    // </div>
-    <div className="mt-5 pt-5 footer-container">
-      <hr />
-      <div className="text-center fs-3">Abdullah Al Numan Rahi</div>
+    <div className="mt-5 pt-5 footer-container text-white">
+      <hr className="text-white"/>
+      <div className="text-center fs-3 fw-bold">Abdullah Al Numan Rahi</div>
       <div className="fs-5 text-center">Frontend Developer</div>
       <div className="text-center">
         <a
@@ -46,7 +15,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin />
+          <FaLinkedin className="text-white" />
         </a>
         <a
           className="fs-2 px-2"
@@ -54,7 +23,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebook />
+          <FaFacebook className="text-white" />
         </a>
         <a
           className="fs-2 px-2"
@@ -62,25 +31,25 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub />
+          <FaGithub className="text-white" />
         </a>
       </div>
-      <hr />
+      <hr className="text-white"/>
       <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between align-items-center">
         <div className="mb-3 mb-sm-0 ps-5">
           <p>&copy; 2023 Abdullah Al Numan Rahi. All rights reserved.</p>
         </div>
         <div className="mt-3 mt-sm-0 pe-5">
-          <Link to="/" className="text-decoration-none px-1 text-dark">
+          <Link to="/" className="text-decoration-none px-1" style={{color:'#a9dfbf'}}>
             Home
           </Link>
-          <Link to="/project" className="text-decoration-none px-1 text-dark">
+          <Link to="/project" className="text-decoration-none px-1" style={{color:'#a9dfbf'}}>
             Projects
           </Link>
-          <Link to="/skills" className="text-decoration-none px-1 text-dark">
+          <Link to="/skills" className="text-decoration-none px-1" style={{color:'#a9dfbf'}}>
             Skills
           </Link>
-          <Link to="/contact" className="text-decoration-none px-1 text-dark">
+          <Link to="/contact" className="text-decoration-none px-1" style={{color:'#a9dfbf'}}>
             Contact
           </Link>
         </div>

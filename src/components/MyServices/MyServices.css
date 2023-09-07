@@ -3,7 +3,8 @@
   transition: outline 1s ease 0s;
 }
 .border-hover:hover {
-  background-color: rgba(0, 255, 255, 0.11);
+  background-color: rgba(255, 255, 255, 0.39);
+  color: #A9DFBF;
   outline: 10px solid #d5d6e8;
 }
 .h-10 {
